@@ -1,0 +1,15 @@
+
+ROZPISKA MEMU
+1.menu
+2.wybór czy a)szyfrujemy b)deszyfrujemy 
+  a)wybór rodzaju kodu    (alfabet morsa, szyfr Cezasa, szyfr afiniczny)
+    podanie słowa
+  b)wybór rodzaju kodu
+    podanie słowa
+3.wykonanie polecenia i podanie wyniku 
+
+BŁĘDY DO POPRAWIENIA
+1.menu problem z funkcją exit
+2.stworzyć funkcje szyfrującą morsa
+  a.pobranie słowa(problem z wskaźnikami)
+  b.szyfrowanie

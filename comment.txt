@@ -13,3 +13,14 @@ BŁĘDY DO POPRAWIENIA
 2.stworzyć funkcje szyfrującą morsa
   a.pobranie słowa(problem z wskaźnikami)
   b.szyfrowanie
+
+ROZPISKA SZYFROWANIA
+1.pobieramy słowo 
+2.szyfrujemy 
+  a.szyfrowanie każdej litery po kolei 
+    a.a. ustalenie długości tablicy 
+    a.b. pętlą podająca każde słowo pokolei do pracy nad nim
+    a.c. utworzenie funkcji szyfruje daną jej litere 
+  b. wyświetlanie zaszyfrowanej wiadomości 
+    b.a. mam nadzieję że będzie to współpracowało z działaniem pętli xDDD
+    

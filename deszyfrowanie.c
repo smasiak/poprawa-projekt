@@ -1,19 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void szyfrowanie_mors(){
+void deszyfrowanie_mors(){
     char *word[128];
     printf("Type word to szyfrowanko: ");
     scanf("%s", *word);
     printf("%s\n", *word);
 }
-void szyfrowanie_Cezar(){
+void deszyfrowanie_Cezar(){
     char *word[128];
     printf("Type word to szyfrowanko: ");
     scanf("%s", *word);
     printf("%s\n", *word);
 }
-void szyfrowanie_afiniczne(){
+void deszyfrowanie_afiniczne(){
     char *word[128];
     printf("Type word to szyfrowanko: ");
     scanf("%s", *word);

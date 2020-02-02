@@ -7,6 +7,5 @@ int main(){
     int a;
     int b;
     menu(a, b);
-    szyfrowanie();
     return 0;
 }

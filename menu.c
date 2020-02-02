@@ -8,27 +8,33 @@ int menu(int a, int b){
         printf("Choose the way of encryption.\n1.morse alphabet\n2.Caesar's cipher\n3.affine cipher\n"); 
         scanf("%d", &b);
             if(b==1){
-                printf("Wstawić tutaj odnośnik do funkcji\n");
+                printf("morse alphabet");
+                szyfrowanie_mors();
             }
             if(b==2){
-                printf("Wstawić tutaj odnośnik do funkcji\n");
+                printf("Caesar's cipher");
+                szyfrowanie_Cezar();
             }
             if(b==3){
-                printf("Wstawić tutaj odnośnik do funkcji\n");
+                printf("affine cipher");
+                szyfrowanie_afiniczne();
             }
     }
     if(a==2){   //deszyfrowanie
         printf("Choose the way of decryption.\n 1.morse alphabet\n2.Caesar's cipher\n3.affine cipher\n"); 
         scanf("%d", &b);
             if(b==1){
-                printf("Wstawić tutaj odnośnik do funkcji\n");
+                printf("morse alphabet");
+                deszyfrowanie_mors();
             }
             if(b==2){
-                printf("Wstawić tutaj odnośnik do funkcji\n");
+                printf("Caesar's cipher");
+                deszyfrowanie_Cezar();
             }
             if(b==3){
-                printf("Wstawić tutaj odnośnik do funkcji\n");
-            }                
+                printf("affine cipher");
+                deszyfrowanie_afiniczne();
+            }               
     }
     if(a==3){  //zakończenie pracy
         return 0;
